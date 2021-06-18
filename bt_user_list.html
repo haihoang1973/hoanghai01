@@ -1,0 +1,276 @@
+
+<html>
+    <head>
+        <title>User_list</title>
+        <style>
+          body{
+               margin: 0px;
+              }
+            #container{
+            width: 1000px;
+            height: 750px;
+            border: 2px solid white;
+            margin: auto;
+            } 
+            #header1{
+                width: 998px;
+                height: 30px;
+                border: 1px solid #A7EAF1;
+                
+            } 
+            #header2{
+                width: 988px;
+                height: 30px;
+                border: 1px solid #A7EAF1;
+                margin-top: 3px;
+
+                display: flex;
+                padding-left: 10px;
+                padding-bottom: 4px;
+                font-weight: bold;
+    
+               
+
+            } 
+            #header3{
+                width: 998px;
+                height: 250px;
+                border: 1px solid #A7EAF1;
+                margin-top: 3px;
+                display: flex;
+            
+            }
+            #header4{
+                width: 988px;
+                height: 30px;
+                border: 1px solid #A7EAF1;
+                margin-top: 3px;
+
+                display: flex;
+                padding-left: 10px;
+                padding-bottom: 4px;
+                font-weight: bold;
+    
+            }
+            #header5{
+                width: 998px;
+                height: 350px;
+                border: 1px solid #A7EAF1;
+                margin-top: 3px;
+
+            }
+            a{
+                padding-left: 10px;
+            }
+            h4{
+                padding-left: 10px;
+                padding-bottom: 10px;
+            }
+            th{
+            background-color: #2F4F4F ;
+            color: white ;
+             }
+            tr{
+            text-align: center;
+             } 
+
+        </style>
+    </head>
+    <body>
+        <div id="container">
+
+            <div id="header1">
+                   <a href="">Trang chủ</a>
+                   <a href="">»»»</a>
+                   <a href="">Quản lý người dùng</a>
+                   <a href="">»»»</a>
+                   <a href="">Danh sách</a>
+            </div>
+
+            <div id="header2">
+               <p>Tìm kiếm người dùng</p>
+            </div>
+
+            <div id="header3">
+                <div style=" width: 49.5%;height: 248px;
+                border: 1px solid #A7EAF1;
+                float: left;">
+              
+                <div style=" display: flex;
+                        flex-direction: row;padding-left: 10px;">
+                <p>Tài khoản:</p>
+                <input style="width: 300px;height: 25px;margin-top: 15px;margin-left: 15px;" type="text">
+                </div>
+                
+                <div style=" display: flex;
+                         flex-direction: row;padding-left: 10px;">   
+                <p>Tên thật:</p>
+                <input  style="width: 300px;height: 25px;margin-top: 15px;margin-left: 24px;" type="text">
+                </div> 
+                <div style=" display: flex;
+                        flex-direction: row;padding-left: 10px;">   
+                <p>Email:</p>
+                <input style="width: 300px;height: 25px;margin-top: 15px;margin-left: 37px;"  type="email">
+                </div>
+            <input style=" width:50px;height:25px;background-color: red;border: 1px solid red;
+                           color: white;margin-left: 90px;"
+             type="submit" value="Reset">
+            <input  style=" width:70px;height:25px;background-color:#2F4F4F;
+                            border: 1px solid #2F4F4F;color: white;"
+             type="submit" value="Tìm kiếm">
+                </div>
+                <div style=" width: 49.5%;height: 248px;
+                border: 1px solid #A7EAF1;
+                float: right;padding-left: 20px">
+                  <div>
+                  <p>Giới tính:</p>
+                  <input  type="radio" name="checkbox" value="Nam" > Nam
+                  <input  type="radio" name="checkbox" value="Nữ" > Nữ
+                  <input  type="radio" name="checkbox" value="Nữ" > Khác
+                  </div>
+                  <div>   
+                  <p>Ngôn ngữ lập trình :</p>
+                  <input type="checkbox"> PHP
+                  <input type="checkbox"> Java
+                  <input type="checkbox"> Javascript
+                  <input type="checkbox"> C
+                  <input type="checkbox"> Python
+                  </div> 
+                 <div>   
+                <p>Quốc tịch:</p>
+                 <select>
+                 <option>--lựa chọn quốc tịch--</option>
+                 <option>Vietnamese</option>
+                 <option>Japanese</option>
+                 <option>Chinese</option>
+                 <option>American</option>
+                 </select>
+                 </div>
+                </div>
+            </div>
+           
+            <div id="header4">
+                <p>Danh sách người dùng</p>
+
+
+            </div>
+            <div id="header5">
+                <table border="1px"  width="996px">
+                    <tr>
+                        <th>Tên tài khoản ⇵</th>
+                        <th>Tên thật ⇵</th>
+                        <th>E-mail ⇵</th>
+                        <th>Giới tính ⇵</th>
+                        <th>Ngôn ngữ lập trình ⇵</th>
+                        <th>Quốc tịch ⇵</th>
+                    </tr>
+                    <tr>
+                        <td>admin11</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>admin12</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>       
+                    </tr>
+                    <tr>
+                        <td>admin13</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>admin14</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>admin15</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>admin16</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>admin17</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>admin18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>admin19</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>admin20</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>admin21</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+                <br/>
+               <div style="margin-left: 300px;">
+                   <input style="border: 1px solid black;background-color: black;color: white;width: 50px;height: 25px;"
+                    type="submit" value="Đầu">
+                   <input style="border: 1px solid black;background-color: black;color: white;width: 50px;height: 25px;"
+                   type="submit" value="Trước">
+                   <input style="border: 1px solid red;background-color: red;color: white;width: 30px;height: 25px;"
+                   type="submit" value="1">
+                   <input style="border: 1px solid black;background-color: black;color: white;width: 30px;height: 25px;"
+                   type="submit" value="2">
+                   <input style="border: 1px solid black;background-color: black;color: white;width: 30px;height: 25px;"
+                   type="submit" value="3">
+                   <input style="border: 1px solid black;background-color: black;color: white;width: 50px;height: 25px;"
+                   type="submit" value="Sau">
+                   <input style="border: 1px solid black;background-color: black;color: white;width: 50px;height: 25px;"
+                   type="submit" value="Cuối">
+               </div>
+            </div>
+        </div>
+    </body>
+</html>

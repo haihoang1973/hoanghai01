@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <title>Login</title>
+               <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            #nav{
+                width: 500px;
+                height: 300px;
+                border: 1px solid seagreen;
+            }
+            body{
+                height: 900px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            #title{
+                height: 60px;
+                background-color: seagreen;
+                color: white;
+                display: flex;
+                justify-content: center;
+            }
+            #content{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 220px;
+
+            }
+            input[type="text"],[type="password"]{
+                width: 400px;
+                height: 35px;
+                border: 1px solid seagreen;
+                margin-top: 20px;
+                padding-left: 30px;
+
+            }
+            input[type="submit"]{
+                width: 150px;
+                height: 40px;
+                background-color: red;
+                color: white;
+                font-weight:bold;
+                border: 1px solid red;
+                margin-top: 20px;
+            }
+            #bottom{
+                padding-left: 250px;
+            }
+            a{
+                color: black;
+            }
+            #divinput {
+                position: relative;
+            }
+            #divinput i{
+                position: relative;
+                left: 30px;
+                color: seagreen;
+            }
+        </style>
+    </head>
+<body> 
+    <div id="nav"> 
+        <div id="title">
+           <h3>QUÊN MẬT KHẨU</h3> 
+        </div>
+        <div id="content">
+        <div id="divinput">
+            <i class="fa fa-user"></i>
+            <input type="text" placeholder="Tài Khoản">
+        </div>
+        <div id="divinput">
+            <i class="fa fa-lock"></i>
+            <input type="password" placeholder="Nhập Mật Khẩu Mới">
+        </div>
+        <div id="divinput"> 
+            <i class="fa fa-lock"></i>
+            <input type="password" placeholder="Xác Nhận Mật Khẩu">
+
+        </div>
+            <input type="submit" value="Xác Nhận">
+        </div>
+      
+
+    </div>
+</body>
+
+</html>

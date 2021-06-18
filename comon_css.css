@@ -1,0 +1,26 @@
+
+
+
+input[type="text"],[type="password"],[type="email"]{
+    width: 400px;
+    height: 35px;
+    border: 1px solid seagreen;
+    margin-top: 20px;
+    padding-left: 30px;
+
+}
+
+input[type="submit"]{
+    width: 150px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    font-weight:bold;
+    border: 1px solid red;
+    margin-top: 20px;
+}
+#nav{
+    width: 1000px;
+    height: 800px;
+    border: 1px solid white;
+}

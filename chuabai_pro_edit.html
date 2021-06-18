@@ -1,0 +1,90 @@
+<html>
+ <head>
+        <link rel="stylesheet" href="comon_css.css">
+ <style>
+body{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#left{
+    width: 37%;
+    border: 1px solid seagreen;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+            
+#right{
+    width: 55%;
+    border: 1px solid seagreen;
+    float: right;
+    padding: 15px;
+}  
+h4{
+    height: 1px;
+} 
+#title{
+    height: 30px;
+    border-bottom: 2px solid seagreen;
+}
+ </style>
+ </head>
+<body>
+   <div id="nav">
+       <div id="left">
+           <img src="1.jpg" width="300px" height="300px">
+           <b style="margin-top: 10px;">Ảnh đại diện</b>
+           <input type="submit" value="Xóa">
+       </div>
+       <div id="right">
+           <div id="title">
+               <h4>Thông tin cá nhân</h4>
+           </div>
+           <h4>Tên tài khoản</h4>
+           <input style="margin-top: 0px" type="text">
+           <h4>Mật khẩu</h4>
+           <input style="margin-top: 0px" type="password">
+           <h4>Nhập lại mật khẩu</h4>
+           <input style="margin-top: 0px" type="password">
+           <h4>Tên thật</h4>
+           <input style="margin-top: 0px"  type="text">
+           <h4>Email</h4>
+           <input style="margin-top: 0px" type="email">
+           <h4>Thay đổi ảnh đại diện</h4>
+           <input type="file">
+           <div>
+            <h4>Giới tính:</h4>
+            <input type="radio" name="checkbox" value="Nam" > Nam
+            <input type="radio" name="checkbox" value="Nữ" > Nữ
+            </div>
+            <h4>Ngôn ngữ lập trình</h4>
+            <input type="checkbox"> PHP
+            <input type="checkbox"> Java
+            <input type="checkbox"> Javascript
+            <input type="checkbox"> C
+            <input type="checkbox"> Python
+    
+            <h4>Quốc tịch:</h4>
+    
+            <select>
+            <option>--lựa chọn quốc tịch--</option>
+            <option>Vietnamese</option>
+            <option>Japanese</option>
+            <option>Chinese</option>
+            <option>American</option>
+            </select>
+            <br/>
+            <input type="submit" value="Xác nhận chỉnh sửa">
+
+       </div>
+   </div>
+
+ </body>
+</html>

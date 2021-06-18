@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style type="text/css">
+          .container {
+            width: 500px;
+            margin: auto;
+            text-align: center;
+          }
+          .pagination {
+            width: 400px;
+            margin-left: 50px;
+          }
+          .pagination a {
+            display: block;
+            color: black;
+            float: left;
+            padding: 8px 8px;
+            text-decoration: none;
+            transition: background-color .3s;
+          }
+
+          .pagination a.active {
+              background-color: #4CAF50;
+              color: white;
+          }
+
+          .pagination a:hover:not(.active) {
+            background-color: #ddd;
+          }
+        </style>
+    </head>
+    <body> 
+      <div class="container">
+        <h2>Freetuts.net hướng dẫn định dạng phần Phân trang</h2>
+
+        <div class="pagination">
+          <a href="#">&laquo;</a>
+          <a href="#">1</a>
+          <a class="active" href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">4</a>
+          <a href="#">5</a>
+          <a href="#">6</a>
+          <a href="#">Đầu</a>
+          <a href="#">&raquo;</a>
+        </div> 
+        
+        <div class="pagination">
+          <a href="#">Đầu</a>
+          <a href="#">Trước</a>
+          <a class="active" href="#">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">4</a>
+          <a href="#">Sau</a>
+          <a href="#">Cuối</a>
+        </div>  
+
+      </div>
+    </body>
+</html>

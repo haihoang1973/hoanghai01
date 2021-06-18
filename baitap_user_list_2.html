@@ -1,0 +1,289 @@
+
+
+
+<html>
+    <head>
+        <title>User_list</title>
+        <style>
+          body{
+               margin: 0px;
+              }
+            #container{
+            width: 1000px;
+            height: 650px;
+            border: 2px solid white;
+            margin: auto;
+            } 
+            #header1{
+                width: 998px;
+                height: 30px;
+                border: 1px solid #A7EAF1;
+                
+            } 
+            #header2{
+                width: 988px;
+                height: 30px;
+                border: 1px solid #A7EAF1;
+                margin-top: 3px;
+
+                display: flex;
+                padding-left: 10px;
+                padding-bottom: 4px;
+                font-weight: bold;
+    
+               
+
+            } 
+            #header3{
+                width: 998px;
+                height: 151px;
+                border: 1px solid #A7EAF1;
+                margin-top: 3px;
+                display: flex;
+            
+            }
+            #header4{
+                width: 988px;
+                height: 30px;
+                border: 1px solid #A7EAF1;
+                margin-top: 3px;
+
+                display: flex;
+                padding-left: 10px;
+                padding-bottom: 4px;
+                font-weight: bold;
+    
+            }
+            #header5{
+                width: 998px;
+                height: 350px;
+                border: 1px solid #A7EAF1;
+                margin-top: 
+
+            }
+            a{
+                padding-left: 10px;
+            }
+            h4{
+                padding-left: 10px;
+                padding-bottom: 10px;
+            }
+            th{
+            background-color: #2F4F4F ;
+            color: white ;
+             }
+            tr{
+            text-align: center;
+             }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+
+            <div id="header1">
+                   <a href="">Trang chủ</a>
+                   <a href="">»»»</a>
+                   <a href="">Quản lý người dùng</a>
+                   <a href="">»»»</a>
+                   <a href="">Danh sách</a>
+            </div>
+
+            <div id="header2">
+               <p>Tìm kiếm người dùng</p>
+            </div>
+
+            <div id="header3">
+                <div style=" width: 49.7%;height: 150px;
+                border: 1px solid #A7EAF1;
+                float: left;">
+                  <table style= "border: 16px solid white;">
+                    <tr>
+                         <th style="text-align: left;background-color: white;color: black;font-weight:lighter;">Tài khoản :</th>
+                         <th><input style="border: 1px solid black;width: 320px;height: 20px;" type="text"> </th>
+                    </tr>
+                    <tr>
+                      <td style="text-align: left;">Tên thật :</td>
+                      <td><input style="border: 1px solid black;width: 320px;height: 20px;" type="text"></td>
+                    </tr>
+                    <tr>
+                      <td style="text-align: left;">Email :</td>
+                      <td><input style="border: 1px solid black;width: 320px;height: 20px;" type="email"></td>
+                    </tr>
+                 </table>
+             
+            <input style=" width:50px;height:25px;background-color: red;border: 1px solid red;
+                           color: white;margin-left: 95px;"
+             type="submit" value="Reset">
+            <input  style=" width:70px;height:25px;background-color:#2F4F4F;
+                            border: 1px solid #2F4F4F;color: white;"
+             type="submit" value="Tìm kiếm">
+                </div>
+                <div style=" width: 50%;height: 150px;
+                border: 1px solid #A7EAF1;
+                float: right;">
+
+                <table style= "border: 16px solid white;">
+                    <tr>
+                        <th style="text-align: left;background-color: white;color: black ;font-weight: lighter;">Giới tính :</th>
+                        <th style=" text-align: left;background-color: white;color: black ;font-weight: lighter;">
+                             <div style="border: 1px solid white;width: 320px;height: 20px;">
+                            <input type="radio" name="checkbox" value="Nam" > Nam
+                            <input type="radio" name="checkbox" value="Nữ" > Nữ 
+                            <input type="radio" name="checkbox" value="Nữ" > Khác
+                            </div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>Ngôn ngữ lập trình:</td>
+                        <td> 
+                          <div style="border: 1px solid white;width: 320px;height: 20px;">
+                          <input type="checkbox"> PHP
+                          <input type="checkbox"> Java
+                          <input type="checkbox"> Javascript
+                          <input type="checkbox"> C
+                          <input type="checkbox"> Python
+                        </div>
+                        </td>  
+                      </tr>
+                      <tr>
+                        <td style="text-align: left;">Quốc tịch:</td>
+                        <td> <select style="border: 1px solid black;width: 320px;height: 20px;" >
+                          <option>--lựa chọn quốc tịch--</option>
+                          <option>Vietnamese</option>
+                          <option>Japanese</option>
+                          <option>Chinese</option>
+                          <option>American</option>
+                          </select> 
+                        </td>  
+                      </tr>
+                </table>
+
+                 
+                </div>
+            </div>
+           
+            <div id="header4">
+                <p>Danh sách người dùng</p>
+
+
+            </div>
+            <div id="header5">
+                <table border="1px" width="100%">
+                    <tr> 
+                        <th>Tên tài khoản ⇵</th>
+                        <th>Tên thật ⇵</th>
+                        <th>E-mail ⇵</th>
+                        <th>Giới tính ⇵</th>
+                        <th>Ngôn ngữ lập trình ⇵</th>
+                        <th>Quốc tịch ⇵</th>
+                    </tr>
+                    <tr>
+                        <td><a href="">admin1</a></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><a href="">admin2</a></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>       
+                    </tr>
+                    <tr>
+                        <td><a href="">admin3</a></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><a href="">admin4</a></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><a href="">user1</a></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><a href="">user2</a></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><a href="">user5</a></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><a href="">user6</a></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><a href="">user7</a></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><a href="">user8</a></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><a href="">user9</a></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+                <br/>
+               <div style="margin-left: 300px;">
+                   <input style="border: 1px solid black;background-color: black;color: white;width: 50px;height: 25px;"
+                    type="submit" value="Đầu">
+                   <input style="border: 1px solid black;background-color: black;color: white;width: 50px;height: 25px;"
+                   type="submit" value="Trước">
+                   <input style="border: 1px solid red;background-color: red;color: white;width: 30px;height: 25px;"
+                   type="submit" value="1">
+                   <input style="border: 1px solid black;background-color: black;color: white;width: 30px;height: 25px;"
+                   type="submit" value="2">
+                   <input style="border: 1px solid black;background-color: black;color: white;width: 30px;height: 25px;"
+                   type="submit" value="3">
+                   <input style="border: 1px solid black;background-color: black;color: white;width: 50px;height: 25px;"
+                   type="submit" value="Sau">
+                   <input style="border: 1px solid black;background-color: black;color: white;width: 50px;height: 25px;"
+                   type="submit" value="Cuối">
+               </div>
+            </div>
+        </div>
+    </body>
+</html>

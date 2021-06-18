@@ -1,0 +1,72 @@
+<html>
+<head>
+    <style>
+        table,tr,th,td{
+            border: 3px solid #cf0b0b;
+        }
+        td input {
+          
+        }
+       
+    </style>
+</head>
+    <body>
+
+
+
+
+<h2>Bordered Table Dividers</h2>
+<p>Add the border-bottom property to th and td for horizontal dividers:</p>
+
+<table>
+  <tr>
+    <th style="text-align: left;font-weight: lighter;">Tài khoản :</th>
+    <th><input style="border: 1px solid rebeccapurple;width: 320px;height: 20px;" type="text"> </th>
+ 
+  </tr>
+  <tr>
+    <td>Tên thật :</td>
+    <td><input style="border: 1px solid black;width: 320px;height: 20px;" type="text"></td>
+   
+  </tr>
+  <tr>
+    <td>Email :</td>
+    <td><input style="border: 1px solid black;width: 320px;height: 20px;" type="email"></td>
+  
+  </tr>
+  <tr>
+    <td>Giới tính:</td>
+    <td> 
+      <div style="border: 1px solid black;width: 320px;height: 20px;">
+      <input type="radio" name="checkbox" value="Nam" > Nam
+      <input type="radio" name="checkbox" value="Nữ" > Nữ 
+      <input type="radio" name="checkbox" value="Nữ" > Khác
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>Ngôn ngữ lập trình:</td>
+    <td> 
+      <div style="border: 1px solid black;width: 320px;height: 20px;">
+      <input type="checkbox"> PHP
+      <input type="checkbox"> Java
+      <input type="checkbox"> Javascript
+      <input type="checkbox"> C
+      <input type="checkbox"> Python
+    </div>
+    </td>  
+  </tr>
+  <tr>
+    <td>Quốc tịch:</td>
+    <td> <select style="border: 1px solid black;width: 320px;height: 20px;" >
+      <option>--lựa chọn quốc tịch--</option>
+      <option>Vietnamese</option>
+      <option>Japanese</option>
+      <option>Chinese</option>
+      <option>American</option>
+      </select> 
+    </td>  
+  </tr>
+</table>
+    </body>
+</html>
